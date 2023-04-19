@@ -23,9 +23,6 @@ const DogFactContainer = () => {
 
   }
 
-  
-  // app is returning before data from the api call is returned 
-  // trying to access an attribute from undefined 
 
   useEffect(() => {
     getDogFact();
